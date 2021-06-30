@@ -17,6 +17,7 @@ function CreateArea(props) {
 
   function submitNote(event){
     props.onAdd(note);
+    setNote({title: "", content:""});
     event.preventDefault(); //to stop refreshing after pressing the button
   }
   return (

@@ -32,10 +32,11 @@ footer{
     text-align: center;
     position: fixed;
     z-index: 99;
-    
+    background-color: #f5ba13;
+    padding-top: 10px;
 }
 footer p{
-    color: black;
+    color: #fff;
 }
 .note{
     background-color: #fff;

@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    width:100%
 }
 
 header{
@@ -12,6 +11,11 @@ header{
     padding: 16px 32px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
     font-family: "Motserrat", sans-serif;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 99;
 }
 header h1{
     font-size: 2rem;
@@ -20,10 +24,14 @@ header h1{
 }
 footer{
     position: absolute;
-    text-align: center;
     bottom: 0;
+    left:0;
+    right:0;
     width: 100%;
     height: 2.5rem;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
     
 }
 footer p{
@@ -34,9 +42,10 @@ footer p{
     border-radius:10px;
     box-shadow: 0 2px 5px #ccc;
     padding: 10px;
-    width: 240px;
+    width: 260px;
     margin: 16px;
     float: left;
+    margin: 20px;
 }
 .note h1 {
     font-size: 1.1em;
@@ -60,6 +69,7 @@ footer p{
     height: 36px;
     cursor: pointer;
     outline: none;
+    background-color: white;
   }
   
 
@@ -71,7 +81,9 @@ footer p{
     padding: 15px;
     border-radius: 7px;
     box-shadow: 0 1px 5px rgb(138, 137, 137);
+    margin-top:100px;
   }
+
   form.create-note input,
   form.create-note textarea {
     width: 100%;

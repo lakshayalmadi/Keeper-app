@@ -35,7 +35,7 @@ function App(){
         onDelete={deleteNote}
         />
       })}
-      <Footer />
+      <Footer style={{position:'fixed'}}/>
     </div>
   )
 }
